@@ -69,8 +69,3 @@ def load_config(path: str) -> Config:
             dbname=params["db"]["dbname"],
         )
     )
-
-
-result = load_config("task_config.yaml")
-
-print(result)

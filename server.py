@@ -3,8 +3,8 @@ import read_config
 
 config = read_config.load_config("task_config.yaml")
 
-API_TOKEN = config.tg_bot.token
-ACCESS_ID = config.tg_bot.username
+BOT_API_TOKEN = config.tg_bot.token
+BOT_USERNAME = config.tg_bot.username
 
 WEB_HOST = config.web.hostname
 WEB_PORT = config.web.port
